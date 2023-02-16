@@ -1,2 +1,2 @@
-# programa-de-calculo-del-iva
-Programa hecho en clase en 14/02/2023. Version 1.0
+# PYTHON 101
+Programas y pruebas hechas en clase
