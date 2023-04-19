@@ -34,13 +34,11 @@ class Pajaro(Animal):
 
 # EN LA APLICACION PRINCIPAL PEDIMOS AL USUARIO PARA INSTANCIAR UN PERRO
 if __name__ == "__main__":
-    perros = []
     
     nombre = input("Introducir un nombre de perro: ")
     patas = input("Introducir patas: ")
     raza = input("Introducir la raza: ")
     perro = Perro(nombre, patas, raza)
-    perros.append(perro)
     print(f"NOMBRE: {perro.nombre}, PATAS: {perro.patas}, RAZA: {perro.raza}")
 
 # LLAMAMOS A LOS METODOS DE PERRO PARA PROBAR QUE FUBNCIONAN
