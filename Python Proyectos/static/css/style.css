@@ -1,0 +1,7 @@
+table, th, td {border: 1px solid;}
+th {background-color: #bde9ba;}
+td {font-weight: bold;background-color: #f0ffff;}
+h1 {text-align: center;}
+h2 {text-align: left;text-decoration: underline;}
+body {background-color: #fffaf0;}
+img {height: auto; max-width: 70%;}

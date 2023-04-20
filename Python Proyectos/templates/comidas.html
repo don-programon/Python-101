@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu del Restaurant!</title>
+</head>
+<center><img src="/static/images/ilarra.jpg";/></center>
+<body>
+        {% for p in comidas %}
+            <h2>{{p.nombre}}</h2>
+            <p>{{p.tipo}}</p>
+            <p>{{p.descripcion}}</p>
+            <p>{{p.precio}}</p>
+        {% endfor %}
+
+</body>
+</html>
